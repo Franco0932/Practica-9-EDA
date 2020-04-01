@@ -1,0 +1,58 @@
+print("********************************************************************************")
+#Calculo del area y perimetro de un rectangulo.
+x = 65 #Base
+y = 30 #Altura
+
+area_r = x*y
+perimetro_r = 2*x+2*y
+
+print ("El area del rectangulo es: "+str(area_r))
+print ("El perimetro del rectangulo es: "+str(perimetro_r))
+
+print("********************************************************************************")
+
+#Calculo del area y perimetro del triangulo isosceles.
+
+a = 10 #base
+b = 25 #Altura
+i = 12 #lado 1
+j = 12 #lado 2
+
+area_t = (a*b)/2
+perimetro_t = i+j+a
+
+print ("El area del triangulo isosceles es: "+str(area_t))
+print ("El perimetro del triangulo isosceles es: "+str(perimetro_t))
+
+print("********************************************************************************")
+
+#Calculo del area y perimetro del circulo.
+r = 38 #Radio
+pi = 3.1415926535897931
+
+area_c = pi*(r**2)
+perimetro_c = (2*pi)*r
+
+print ("El area del circulo es: "+str(area_c))
+print ("El perimetro del circulo es: "+str(perimetro_c))
+
+print("********************************************************************************")
+
+#Calculo del area y perimetro de un trapecio.
+
+w = 3 #base
+W = 9 #BASE
+h = 5 #Altura
+o = 6 #Lado1
+p = 6 #lado2
+
+area_tra = ((w+W)*h)/2
+perimetro_tra = (2*o)+w+W
+
+print ("El area del trapecio es: "+str(area_tra))
+print ("El perimetro del trapecio es: "+str(perimetro_tra))
+
+print("********************************************************************************")
+
+
+
